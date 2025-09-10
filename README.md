@@ -1,6 +1,6 @@
 This is simply to demonstrate that the combobox will not function properly if the form is reloaded dynamically. It uses [Datastar](https://data-star.dev/examples/web_component) to dynamically load new HTML fragments.
 
-This demo requires golang.
+This demo requires [golang](https://go.dev).
 
 
 1. From the project root, run `go mod tidy` to install dependencies
