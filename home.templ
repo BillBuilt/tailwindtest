@@ -1,0 +1,35 @@
+package main
+
+templ Home() {
+	<!DOCTYPE html>
+	<html id="html" lang="en" class="h-full bg-gray-100 dark:bg-gray-900">
+		<head>
+			<title>Meal Master</title>
+			<meta charset="UTF-8"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			<!-- Tailwind CSS (output) -->
+			<link href="/assets/css/output.css" rel="stylesheet"/>
+			<script type="module" src="https://cdn.jsdelivr.net/gh/starfederation/datastar@main/bundles/datastar.js"></script>
+			<script type="module" src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1"></script>
+		</head>
+		<body
+			class="h-full text-gray-900 dark:text-white"
+		>
+			<div class="min-h-full">
+				<nav class="fixed top-0 inset-x-0 border-b border-gray-200 bg-white dark:border-white/10 dark:bg-gray-900 z-1">
+					Header Here
+				</nav>
+
+
+				<div class="fixed border-0 border-red-500 bottom-8 left-0 right-px top-[65px] pt-10 overflow-auto">
+					@Form()
+				</div>
+
+				<div class="fixed bottom-0 inset-x-0 bg-gray-50 dark:bg-gray-900/50 h-8 border-t border-gray-200 dark:border-white/10 text-xs font-mono flex items-center justify-center px-4">
+					status bar
+				</div>
+
+			</div>
+		</body>
+	</html>
+}
